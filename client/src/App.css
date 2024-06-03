@@ -1,0 +1,95 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.top-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.track-library {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  background-color: #f0f0f0;
+  cursor: grab;
+}
+
+.track-library .track {
+  margin: 5px 0;
+}
+
+.track button {
+  margin-right: 10px;
+}
+
+.progress-container {
+  width: 70%;
+  position: relative;
+  margin: 20px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  position: relative;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  width: 5%;
+  height: 30px; /* Shorter height */
+  border: 1px solid lightgray;
+}
+
+.time-markers {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: -20px;
+  width: 100%;
+}
+
+.time-marker {
+  position: relative;
+  bottom: -20px;
+  width: 5%;
+  text-align: center;
+}
+
+.cell-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.progress-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}

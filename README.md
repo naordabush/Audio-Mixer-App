@@ -11,7 +11,7 @@ This is a web application for mixing audio tracks using Express.js in the backen
 ## Installation
 
 1. Clone the repository:
-git clone https://github.com/naordabush/loop-machine.git
+git clone https://github.com/naordabush/Audio-Mixer-App.git
 
 2. Install dependencies for both backend and frontend:
 cd audio-mixer-app
